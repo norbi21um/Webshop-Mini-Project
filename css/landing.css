@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,500,600,700&subset=latin-ext');
+
+/* General */
+
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Work sans", Arial;
+    color: white;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+ol li {
+    display: inline;
+}
+
+.logo {
+    position: absolute; 
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.buttonBox a {
+    margin: 10px;
+    display: inline-block;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.vCenter {
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+}
+
+.vfkozepre {
+    position: absolute;
+    top: 50%;
+    margin-bottom: -50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.lablec {
+    font-family: Arial;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.lablec a {
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.lablec a:hover {
+    color: rgb(203, 203, 203);
+    transition-duration: 0.5s;
+}
+
+.gombdoboz {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+.button {
+    padding: 12px;
+    width: 165px;
+    background: rgba(255, 0, 0, 0.5);
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+    height: 18px;
+}
+
+.button:hover {
+    filter: invert(100%);
+    transition-duration: 0.5s;
+}
+
+#sources {
+    margin-top: 30px;
+    text-decoration: none;
+    font-family: Arial;
+    display: inline-block;
+                }
+
+#sources a:hover {
+    color: rgb(203, 203, 203);
+    transition-duration: 0.5s;
+}
+
+.fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
+    background-color: black;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+
+
+
+
+/* LogIn Page */
+
+.container {
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(16,16,16, 0.7);
+    border-radius: 4px;
+}
+
+input[type="text"],input[type="password"]{
+    height: 45px;
+    width: 300px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+
+.btn-login{
+    width: 340px;
+    padding: 15px;
+    margin: 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #2ECC71;
+    border: none;
+}
+
+
+.container h1{
+    padding: 30px;
+}
+
+#headerbox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#headerbox a {
+    padding: 30px;
+    margin: 30px;
+}
+
+#loginpng{
+    height: 16px;
+    width: 20px;
+}
+
+
